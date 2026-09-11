@@ -21,7 +21,7 @@ const aspectOptions = ["1:1", "9:16", "16:9"];
       return;
     }
 
-   const redirectUri = "http://localhost:3000/callback";
+   const redirectUri = `${window.location.origin}/callback`;
 
     window.location.href =
       `https://enter.pollinations.ai/authorize` +
